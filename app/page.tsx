@@ -21,11 +21,29 @@ export default function Home() {
         </div>
         <div>
           <Link
-            className="bg-purple-800 text-white p-2 rounded-sm hover:bg-purple-700"
+            className="bg-purple-800 text-white mr-1 p-2 rounded-sm hover:bg-purple-700"
             href="/store"
           >
             {" "}
             Take me to the Store{" "}
+          </Link>
+          <Link
+            className="bg-purple-800 text-white mr-1 p-2 rounded-sm hover:bg-purple-700"
+            href="/store/track-order"
+          >
+            Track Order
+          </Link>
+          <Link
+            className="bg-purple-800 text-white mr-1 p-2 rounded-sm hover:bg-purple-700"
+            href="/store/communities"
+          >
+            Communities
+          </Link>
+          <Link
+            className="bg-purple-800 text-white p-2 rounded-sm hover:bg-purple-700"
+            href="/store/about"
+          >
+            About Us
           </Link>
         </div>
       </div>
