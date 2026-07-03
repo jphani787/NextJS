@@ -149,7 +149,7 @@ const books = [
   },
 ];
 
-export default function getAllBooks() {
+export function getAllBooks() {
   return books;
 }
 
