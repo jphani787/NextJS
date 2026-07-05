@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-
 const Dashbord = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
