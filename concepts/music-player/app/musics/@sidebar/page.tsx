@@ -1,8 +1,12 @@
-import Home from "@/app/page";
 import React from "react";
 import { Clock, HomeIcon, TrendingUp } from "lucide-react";
 
-const Sidebar = () => {
+const Sidebar = async () => {
+  await new Promise((reslove) => {
+    setTimeout(() => {
+      reslove("Content is currently loading...");
+    }, 500);
+  });
   return (
     <aside className="w-64 bg-[#111111] text-white flex flex-col justify-between p-4 min-h-screen">
       <section>
